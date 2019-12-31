@@ -1,0 +1,20 @@
+  var o= 0;
+  var sum = 0;
+
+  function hypotenus(h,b)
+  {
+    sum = square(h,b);
+    o = squareroot(sum);
+    return o;
+  }
+  function square (h,b){
+    var s = h*h +b*b;
+    return s;
+  
+  }
+  function squareroot(s){
+    var sr = s**0.5;
+    return sr;
+  }
+
+  console.log(hypotenus(3,4));
